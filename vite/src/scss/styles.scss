@@ -34,7 +34,14 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 $body-color: #333;
 $body-bg: #fff;
 $border-radius: .4rem;
-$success: #7952b3;
+$success:#212529;
+$heading-font-family:'Rubik Distressed', cursive;
+$primary: #0d6efd;
+$secondary:#151516;
+$warning:#dd3c4b;
+$danger:#111111;
+$info:#298f60;
+
 
 // Required
 @import "~bootstrap/scss/functions";
@@ -83,11 +90,27 @@ $success: #7952b3;
 
 
 //
-// Custom styles
+// Mis estilos
 //
 
 @import "icon-list";
 
-body {
-  padding: 1.5rem;
+
+.celda{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-color: grey;
 }
+
+#panel{
+  border: 1px solid black;
+  width: 300px;
+  
+}
+.p-fila{
+  display: flex;
+}
+
+
